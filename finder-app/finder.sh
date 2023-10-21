@@ -5,17 +5,17 @@ searchstr=$2
 
 if [ $# -le 1 ]
     then
-        echo "wrong number of parameters"
+        # echo "wrong number of parameters"
         exit 1
 
 elif [ -z "$filesdir" ]
     then
-        echo "parameter 1 is empty"
+        # echo "parameter 1 is empty"
         exit 1
 
 elif [ -z "$searchstr" ]
     then
-        echo "parameter 2 is empty"
+        # echo "parameter 2 is empty"
         exit 1
 
 else
